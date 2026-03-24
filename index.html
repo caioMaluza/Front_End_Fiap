@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03 - Estruturas básicas pt-2</title>
+</head>
+<body>
+    <h1>Criando primeiro formulário</h1>
+    <form action="">
+        <h2>Cadastro de informações pessoais </h2>
+
+        <p>Digite seu nome e sobrenome:</p>
+        <label for="nome_sobrenome">Nome e Sobrenome</label>
+
+        <input type="text" name="nome_sobrenome" placeholder="Digite Aqui">
+
+        <p>Selecione o seu genero</p>
+        <input type="radio" name="genero" value="M">
+        <label for="genero">Masculino</label> <br>
+
+        <input type="radio" name="genero" value="M">
+        <label for="genero">Feminino</label> <br>
+
+        <input type="radio" name="genero" value="M">
+        <label for="genero">Outros</label> <br>
+
+
+        <p>Selecione os meios de transportes que usas:</p>
+        <input type="checkbox" name="transporte" id="carro">
+        <label for="transporte">Carro</label><br>
+
+        <input type="checkbox" name="transporte" id="metrô">
+        <label for="transporte">Metrô</label><br>
+
+        <input type="checkbox" name="transporte" id="ônibus">
+        <label for="transporte">Ônibus</label><br>
+
+        <input type="checkbox" name="transporte" id="moto">
+        <label for="transporte">Moto</label><br>
+
+        <input type="checkbox" name="transporte" id="bike">
+        <label for="transporte">Bike</label><br>
+
+        <p>Selecione o seu tamanho de camisa:</p>
+        <select name="tamanho_camisa">
+            <option value="G">Grande</option>
+            <option value="M">Médio</option>
+            <option value="P">Pequeno</option>
+        </select>
+
+        <br><br>
+        <fieldset>
+            <legend>Aceite os termos antes de conftinuar</legend>
+            <input type="checkbox" name="Aceite" value="Ok" required>  
+            <label for="aceite">Aceito tudo!</label>          
+        </fieldset>
+
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+    <br><br>
+    <img src="https://www.bing.com/th/id/OGC.f26715d11710503e3fe9d37439ef4907?o=7&pid=1.7&rm=3&rurl=https%3a%2f%2fusagif.com%2fwp-content%2fuploads%2f2020%2fb72nv6%2fevrbddancen0w-84.gif&ehk=OhWe31ny83UukHcQd0HxbpKJZ7Miq61gH3UD%2fX7auj0%3d" alt="cara dançando" width="200px">
+    <a href="https://www.fiap.com.br"target="_blank">
+        <img src="alguma coisa legal" alt="">
+    </a>
+</body>
+</html>
