@@ -1,0 +1,40 @@
+html, body{
+    margin: 30px;
+}
+
+h1 {
+    /* color: red;
+    color: rgb(0,256,56); */
+    color:rgb(0, 255, 0);
+    font-size: 80px
+}  
+
+section article h1{
+    color: yellow;
+}
+
+section{
+    padding: 50px 30px 20px 60px;
+    margin-left: 40px;
+}
+section article{
+    backhround-color: #cccccccc;
+    width: 500px;
+    height: 500px;
+}
+
+section article p{
+    line-height: 4 
+}
+
+/* criando uma clase: */
+.nomeDaClasse {
+    color: pink;
+    font-size: 100px;
+    font-family:"Arial";
+}
+
+/* Criando um ID */
+#nomeDoID{
+    background-color: green;
+}
